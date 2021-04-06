@@ -1,12 +1,37 @@
 {
-  "name": "gongye-page",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "gongye-page",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "gongye",
+    "license": "MIT",
+    "bin": "bin/gongye-page.js",
+    "files": [
+        "lib",
+        "bin"
+    ],
+    "dependencies": {
+        "@babel/core": "^7.13.14",
+        "@babel/preset-env": "^7.13.12",
+        "bootstrap": "4.4.1",
+        "browser-sync": "^2.26.14",
+        "del": "^6.0.0",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-if": "^3.0.0",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-load-plugins": "^2.0.6",
+        "gulp-sass": "^4.1.0",
+        "gulp-swig": "^0.9.1",
+        "gulp-uglify": "^3.0.2",
+        "gulp-useref": "^5.0.0",
+        "jquery": "3.4.1",
+        "popper.js": "1.16.1"
+    }
 }
